@@ -1,0 +1,171 @@
+"RMI TCP Accept-0@1858" daemon prio=5 tid=0x14 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at sun.nio.ch.Net.accept(Net.java:-1)
+	  at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:755)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	  at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	  at java.net.ServerSocket.accept(ServerSocket.java:532)
+	  at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:52)
+	  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
+	  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"RMI TCP Accept-0@1774" daemon prio=5 tid=0x12 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at sun.nio.ch.Net.accept(Net.java:-1)
+	  at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:755)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	  at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	  at java.net.ServerSocket.accept(ServerSocket.java:532)
+	  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
+	  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"RMI TCP Accept-9559@1815" daemon prio=5 tid=0x13 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at sun.nio.ch.Net.accept(Net.java:-1)
+	  at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:755)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	  at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	  at java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	  at java.net.ServerSocket.accept(ServerSocket.java:532)
+	  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
+	  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"main@1" prio=5 tid=0x1 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at org.openqa.selenium.json.JsonOutput$Node.write(JsonOutput.java:411)
+	  at org.openqa.selenium.json.JsonOutput$Empty.write(JsonOutput.java:424)
+	  at org.openqa.selenium.json.JsonOutput.beginObject(JsonOutput.java:224)
+	  at org.openqa.selenium.remote.NewSessionPayload.writeTo(NewSessionPayload.java:174)
+	  at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:98)
+	  at org.openqa.selenium.remote.RemoteWebDriverBuilder.getRemoteDriver(RemoteWebDriverBuilder.java:399)
+	  at org.openqa.selenium.remote.RemoteWebDriverBuilder.build(RemoteWebDriverBuilder.java:372)
+	  at App.main(App.java:27)
+
+"HttpClient-1-Worker-0@3471" daemon prio=5 tid=0x17 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	  at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"HttpClient-1-Worker-1@3477" daemon prio=5 tid=0x18 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	  at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"HttpClient-1-Worker-2@3481" daemon prio=5 tid=0x19 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	  at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"HttpClient-2-Worker-0@4050" daemon prio=5 tid=0x1b nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	  at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"HttpClient-2-Worker-1@4053" daemon prio=5 tid=0x1c nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	  at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	  at java.lang.Thread.run(Thread.java:833)
+
+"HttpClient-1-SelectorManager@2780" daemon prio=5 tid=0x16 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at sun.nio.ch.EPoll.wait(EPoll.java:-1)
+	  at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	  at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	  - locked <0x11b3> (a sun.nio.ch.EPollSelectorImpl)
+	  - locked <0x11b4> (a sun.nio.ch.Util$2)
+	  at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	  at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+
+"HttpClient-2-SelectorManager@4032" daemon prio=5 tid=0x1a nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at sun.nio.ch.EPoll.wait(EPoll.java:-1)
+	  at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	  at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	  - locked <0x11b5> (a sun.nio.ch.EPollSelectorImpl)
+	  - locked <0x11b6> (a sun.nio.ch.Util$2)
+	  at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	  at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+
+"HttpClient-3-SelectorManager@4524" daemon prio=5 tid=0x1d nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at sun.nio.ch.EPoll.wait(EPoll.java:-1)
+	  at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+	  at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	  - locked <0x11b7> (a sun.nio.ch.EPollSelectorImpl)
+	  - locked <0x11b8> (a sun.nio.ch.Util$2)
+	  at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	  at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+
+"Common-Cleaner@4528" daemon prio=8 tid=0xc nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	  at jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	  at java.lang.Thread.run(Thread.java:833)
+	  at jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"ForkJoinPool.commonPool-worker-1@2133" daemon prio=5 tid=0x15 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	  at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	  at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	  at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+"Reference Handler@4525" daemon prio=10 tid=0x2 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at java.lang.ref.Reference.waitForReferencePendingList(Reference.java:-1)
+	  at java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	  at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer@4526" daemon prio=8 tid=0x3 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	  at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher@4527" daemon prio=9 tid=0x4 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Notification Thread@665" daemon prio=9 tid=0x10 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
